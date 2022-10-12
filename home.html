@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/all.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <title>Home</title>
+</head>
+
+<body>
+
+    <nav class="navbar bg-dark navbar-dark navbar-expand-md">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" 
+                aria-controls="menu" aria-expanded="false" aria-label="Botão de navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-item nav-link" href="#home">Home</a>
+                    <a class="nav-item nav-link" href="http://127.0.0.1:5501/atividades.html">Atividades</a>
+                    <div class="dropdown">
+                        <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+                            Disciplinas
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="http://127.0.0.1:5501/disciplinas.html#programacao">Programção I</a>
+                            <a class="dropdown-item" href="http://127.0.0.1:5501/disciplinas.html#compiladores">Compiladores</a>
+                            <a class="dropdown-item" href="http://127.0.0.1:5501/disciplinas.html#optativas">Optativas</a>
+                        </div>
+                    </div>
+                    <a class=" nav-item nav-link" href="http://127.0.0.1:5501/contato.html">Contato</a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    
+    <div class="bg-dark d-flex justify-content-center">
+        <img src="../assets/images/home.gif" class="img-fluid" alt="home-header">
+    </div>
+
+
+    <main class="container">
+
+        <section id="sobre"  class="mb-5 mt-5">
+            <div class="p-4 bg-dark-blue rounded-2 text-justify">
+                <h1>Sobre</h1><br>
+                <p> <strong> Bruna Lima </strong> é professora no Departamento de Engenharia Elétrica e no Programa de Pós-Graduação em Engenharia Elétrica e de Telecomunicações da Universidade Federal Fluminense (UFF), em Niterói (Rio de Janeiro). Doutora em Computação, Mestre em Engenharia Elétrica e de Telecomunicações, Engenheira e Técnica em Telecomunicações. Atuou por mais de dez anos como consultora em automação de subestações e digitalização de sistemas elétricos, principalmente com IEC 61850, e por mais de quinze anos com Telecomunicações.</p>
+                <p> Uma das coordenadoras do Laboratório FRIENDS lab da Escola de Engenharia e pesquisadora do laboratório MidiaCom do Instituto de Computação/Engenharia de Telecom. </p>
+            </div>
+        </section>
+        
+
+        <section id="areas-interesses" class="mb-5 pt-5">
+            <h1>Áreas de Interesse</h1>
+            <div class="accordion pt-3" id="id-accordion">
+                <div class="card bg-purple rounded-top">
+                   <div class="card-header" id="id-header-subestacoes">
+                      <h4 class="mb-0">
+                         <a href="#id-subestacoes" data-toggle="collapse"
+                            aria-expanded="true" 
+                            aria-controls="id-subestacoes">
+                            Automação de Subestações
+                         </a>
+                      </h4>
+                   </div>
+                   <div id="id-subestacoes" class="collapse show"
+                        data-parent="#id-accordion"
+                        aria-labelledby="id-header-subestacoes">
+                      <div class="card-body text-justify">
+                         O crescente número de pontos de comunicação e o uso de padrões e pro­tocolos, como o IEC 61850, implicam em sistemas de alta complexidade e, consequentemente, em maiores custos de engenharia e comissio­namento. Além disso, a falta de padroni­zação das informações dificulta os procedimentos de manutenção e expansão. Dessa forma, são necessárias solu­ções inovadoras capa­zes de tratar e traduzir diferentes protocolos, prover sistemas com alta confiabilidade e reduzir significativamente os custos para automação de subestações.<br>
+                      </div>
+                   </div>
+                </div>
+                <div class="card bg-purple">
+                   <div class="card-header" id="id-header-iec61850">
+                      <h4 class="mb-0">
+                         <a href="#id-iec61850" data-toggle="collapse"
+                            aria-expanded="true" 
+                            aria-controls="id-iec61850">
+                            IEC 61850
+                         </a>
+                      </h4>
+                   </div>
+                   <div id="id-iec61850" class="collapse"
+                        data-parent="#id-accordion"
+                        aria-labelledby="id-header-iec61850">
+                      <div class="card-body text-justify">
+                        Tendo sua primeira versão lançada em 2003, a norma IEC 61850 padroniza a troca de informações entre os diversos IEDs (Intelligent Electronic Devices) de uma ou mais subestações, permitindo a implementação do SAS (Substation Automation System). A arquitetura da norma é baseada no modelo de dados de orientação a objetos, abstraindo atributos e funções dos IEDs, denominados como “Physical Devices”. <br>
+                      </div>
+                   </div>
+                </div>
+                <div class="card bg-purple">
+                    <div class="card-header" id="id-header-industria">
+                       <h4 class="mb-0">
+                          <a href="#id-industria" data-toggle="collapse"
+                             aria-expanded="true" 
+                             aria-controls="id-industria">
+                             Indústria 4.0
+                          </a>
+                       </h4>
+                    </div>
+                    <div id="id-industria" class="collapse"
+                         data-parent="#id-accordion"
+                         aria-labelledby="id-header-industria">
+                       <div class="card-body text-justify">
+                        A Indústria 4.0 facilita a visão e execução de "Fábricas Inteligentes" com as suas estruturas modulares, os sistemas ciber-físicos monitoram os processos físicos, criam uma cópia virtual do mundo físico e tomam decisões descentralizadas. Com a internet das coisas, os sistemas ciber-físicos comunicam e cooperam entre si e com os humanos em tempo real, e através da computação em nuvem, ambos os serviços internos e intra-organizacionais são oferecidos e utilizados pelos participantes da cadeia de valor. <br>
+                       </div>
+                    </div>
+                 </div>
+                <div class="card bg-purple rounded-bottom">
+                   <div class="card-header" id="id-header-redes">
+                      <h4 class="mb-0">
+                         <a href="#id-redes" data-toggle="collapse"
+                            aria-expanded="true" 
+                            aria-controls="id-redes">
+                            Redes Elétricas Inteligentes
+                         </a>
+                      </h4>
+                   </div>
+                   <div id="id-redes" class="collapse"
+                        data-parent="#id-accordion"
+                        aria-labelledby="id-header-redes">
+                      <div class="card-body text-justify">
+                        Carros elétricos abastecidos na garagem de casa, economia de energia por meio de sistemas e dispositivos inteligentes, acompanhamento on-line do consumo de energia, rede elétrica residencial integrada a fontes alternativas de energia, detecção e correção automática de faltas de energia e cidades transformadas pela automação e eficiência energética. São essas algumas das inovações que ganham o mercado como resultado da pesquisa e do desenvolvimento de projetos voltados às Redes Elétricas Inteligentes ou Smart Grids.<br>
+                      </div>
+                   </div>
+                </div>
+            </div>
+    
+        </section>
+        
+
+        <section class="pt-5" id="id-formacao">
+            <h1>Formação</h1>
+            <div class="blog-section row">
+                <img src="../assets/images/universidade.png" class="blog-item w-25" alt="computador-e-cafe">
+                <ul class="list-group text-yellow blog-item">
+                    <li class="list-group-item bg-dark-blue rounded-top">Ph.D. em Ciência da Computação, UCI, 2000.</li>
+                    <li class="list-group-item bg-dark-blue">Ph.D. em Ciência da Computação, UCI, 2000.</li>
+                    <li class="list-group-item bg-dark-blue">M.Sc. em Engenharia Elétrica , COPPE/UFRJ , Brasil, 1995. </li>
+                    <li class="list-group-item bg-dark-blue rounded-bottom">B.S. em Engenharia Eletrônica , Universidade Federal do Rio de Janeiro (UFRJ), Brasil, 1993. </li>
+                </ul>
+                
+            </div>
+        </section>
+
+        <section class="pt-5" id="id-componentes">
+            <h1>Diferenciais</h1>
+            <br>
+            <div class="blog-section row">
+                <img src="../assets/images/diferencial.png" class="blog-item w-25" alt="mulher-analisando-grafico">
+                <ul class="list-group text-dark-blue blog-item">
+                    <li class="list-group-item bg-yellow rounded-top">Componente image-fluid: Site completo</li>
+                    <li class="list-group-item bg-yellow">Mapa do Google Maps: Footer</li>
+                    <li class="list-group-item bg-yellow">Lista de itens: Home</li>
+                    <li class="list-group-item bg-yellow">Tabela de relação de alunos, formação e continuidade: Atividades</li>
+                    <li class="list-group-item bg-yellow rounded-bottom">Barra lateral "sticky": Atividades</li>
+                </ul>
+            </div>
+        </section>
+            
+        <br>
+        <a class="mt-4 mb-5 btn btn-outline-primary rounded-pill" href="#">Voltar para o topo</a>
+
+    </main>
+    
+
+
+    <footer class="blog-footer row">
+        <div class="mr-5 ml-5"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d595.7722891668104!2d-43.13162189430112!3d-22.90504582106113!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9983d604b5a7cb%3A0x12153598a37120f!2sUFF!5e0!3m2!1spt-BR!2sbr!4v1662602431985!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="d-flex flex-column align-self-center font-weight-bold mb-4 ml-5 mr-5">
+            <item class="p-4"> brunalima@id.uff.br </item>
+            <item class="p-2">Escola de Engenharia - UFF</item>
+            <item class="p-2"> Niterói - RJ </item>
+        </div>
+    </footer>
+
+
+    <script src="assets/js/jquery-3.3.1.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+
+</html>

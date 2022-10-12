@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/all.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <title>Atividades</title>
+</head>
+
+<body>
+
+    <nav class="navbar bg-dark navbar-dark navbar-expand-md">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" 
+                aria-controls="menu" aria-expanded="false" aria-label="Botão de navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-item nav-link" href="http://127.0.0.1:5501/home.html">Home</a>
+                    <a class="nav-item nav-link" href="#">Atividades</a>
+                    <div class="dropdown">
+                        <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+                            Disciplinas
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="http://127.0.0.1:5501/disciplinas.html#programacao">Programção I</a>
+                            <a class="dropdown-item" href="http://127.0.0.1:5501/disciplinas.html#compiladores">Compiladores</a>
+                            <a class="dropdown-item" href="http://127.0.0.1:5501/disciplinas.html#optativas">Optativas</a>
+                        </div>
+                    </div>
+                    <a class=" nav-item nav-link" href="http://127.0.0.1:5501/contato.html">Contato</a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="bg-dark d-flex justify-content-center pb-5">
+        <img src="../assets/images/atividades.gif" class="img-fluid" alt="atividades-header">
+    </div>
+
+    <main class="container">
+        <div class="row g-5">
+
+            
+            <div class="col-md-8" id="atividades">
+                <h2 class="pb-4 mb-4 mt-4 border-bottom">
+                    Laboratórios
+                </h2>
+                <div class="row mb-5">
+                    <div class="col-md-6">
+                        <div class="row border rounded flex-md-row mb-4 h-md-250 position-relative" style="overflow: scroll;">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <strong class="d-inline-block mb-2 text-yellow">Computação</strong>
+                                <h3 class="mb-3">MidiaCom</h3>
+                                <p class="card-text mb-2 text-justify">Laboratório MídiaCom tem como finalidade principal oferecer suporte à pesquisa e desenvolvimento de projetos na área de Comunicação de Dados Multimídia com ênfase nas linhas de Redes Mesh sem Fio, Televisão Digital Interativa, Engenharia de Redes de Telecomunicações, Sistemas Hipermídia, Telemedicina e Aplicações e Protocolos de Streaming.</p>
+                                <a href="http://www.midiacom.uff.br/midiacom">Saiba mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row g-0 border rounded flex-md-row mb-4 shadow-sm h-md-250 position-relative" style="overflow: scroll;">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <strong class="d-inline-block mb-2 text-secondary">Engenharia</strong>
+                                <h3 class="mb-3">FRIENDS Lab</h3>
+                                <p class="card-text mb-2 text-justify">Friends Lab, criado em 2017, tem por objetivo o desenvolvimento de soluções em redes de energia elétrica baseados em três pilares: Inteligência Computacional Aplicada, Digitalização de Sistemas Elétricos e Smart Grids.
+                                O Friends Lab, coordenado pelos professores Vitor Hugo e Yona Lopes, é um laboratório multidisciplinar cujo objetivo é a formação de profissionais de excelência, e o desenvolvimento de soluções inovadoras para sistemas de energia elétrica.</p>
+                                <a href="https://friendslab.uff.br/">Saiba mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <h2 class="pb-4 mb-4 mt-5 border-bottom">
+                    Projetos
+                </h2>
+                <div class="row mb-2">
+                    <div class="col-lg-5 col-md-10">
+                        <div class="card mb-3 ">
+                           <img src="assets/images/5GIRLS.png" alt="5GIRLS-logo" class="bg-light">
+                           <div class="card-body">
+                              <div class="text-center">
+                                 <h5 class="card-title">5GIRLS</h5>
+                                 <p class="text-yellow font-weight-bold">2021</p>
+
+                                 <button id="btn1-l" class="btn-like m-3">
+                                     <i id="like1" data-like1="7" class="far fa-thumbs-up"></i>
+                                 </button>
+                                 <button id="btn1-d" class="btn-like m-3">
+                                    <i id="dislike1" data-dislike1="4" class="far fa-thumbs-down"></i>
+                                 </button>
+                              </div>
+                              
+                              <p class="card-text text-justify mt-4">
+                                O projeto tem como propósito avançar o estado da arte no uso da tecnologia 5G, em especial na classe de serviço URLLC para aplicações de missão crítica do sistema elétrico.</p>
+                           </div>
+                           <div class="card-footer text-center mb-2">      
+                                <a class="btn btn-outline-primary" href="#FIVEGmodal" data-toggle="modal">Detalhes</a>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-5 col-md-10">
+                        <div class="card mb-3 ">
+                           <img src="assets/images/iguaba.jpeg" alt="UFV Iguaba">
+                           <div class="card-body">
+                              <div class="text-center">
+                                 <h5 class="card-title">UFV Iguaba</h5>
+                                 <p class="text-yellow font-weight-bold">2021</p>
+                                 <button id="btn2-l" class="btn-like m-3">
+                                     <i id="like2" data-like2="2" class="far fa-thumbs-up"></i>
+                                 </button>
+                                 <button id="btn2-d" class="btn-like m-3">
+                                    <i id="dislike2" data-dislike2="0" class="far fa-thumbs-down"></i>
+                                 </button>
+                              </div>
+                              <p class="card-text text-justify mt-4">
+                                O projeto prevê a instalação de geração distribuída fotovoltaica com a construção da UFV Iguaba, para o laboratório da UFF para a inovação aberta na indústria solar.</p>
+                           </div>
+                           <div class="card-footer text-center mb-2">
+                                <a class="btn btn-outline-primary" href="#UFVmodal" data-toggle="modal">Detalhes</a>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-5 col-md-10">
+                        <div class="card mb-3 ">
+                           <img src="assets/images/VE.png" alt="veiculo-eletrico">
+                           <div class="card-body">
+                              <div class="text-center">
+                                 <h5 class="card-title">Mobilidade UFF</h5>
+                                 <p class="text-yellow font-weight-bold">2021</p>
+                                 <button id="btn3-l" class="btn-like m-3">
+                                     <i id="like3" data-like3="8" class="far fa-thumbs-up"></i>
+                                 </button>
+                                 <button id="btn3-d" class="btn-like m-3">
+                                    <i id="dislike3" data-dislike3="3" class="far fa-thumbs-down"></i>
+                                 </button>
+                              </div>
+                              <p class="card-text text-justify mt-4">
+                                Desenvolver um sistema de compartilhamento de veículos elétricos, compreendendo toda a cadeia de produção, desde o controlador veicular presente nos VEs, até a plataforma online de monitoramento, controle e tarifação dos VEs.</p>
+                           </div>
+                           <div class="card-footer text-center mb-2">
+                                <a class="btn btn-outline-primary" href="#VEmodal" data-toggle="modal">Detalhes</a>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="col-lg-5 col-md-10">
+                        <div class="card mb-3 ">
+                           <img src="assets/images/trafo.png" alt="transformador">
+                           <div class="card-body">
+                              <div class="text-center">
+                                 <h5 class="card-title">DP Trafo</h5>
+                                 <p class="text-yellow font-weight-bold">2021</p>
+                                 <button id="btn4-l" class="btn-like m-3">
+                                     <i id="like4" data-like4="5" class="far fa-thumbs-up"></i>
+                                 </button>
+                                 <button id="btn4-d" class="btn-like m-3">
+                                    <i id="dislike4" data-dislike4="1" class="far fa-thumbs-down"></i>
+                                 </button>
+                              </div>
+                              <p class="card-text text-justify mt-4">
+                                Desenvolver uma solução para monitoramento e diagnóstico de transformadores a seco com invólucro de proteção IP 23 a partir da análise de descargas parciais, que seja replicável e com hardware independente de fabricantes.</p>
+                           </div>
+                           <div class="card-footer text-center mb-2">
+                                <a class="btn btn-outline-primary" href="#DPTmodal" data-toggle="modal">Detalhes</a>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="modal fade" id="FIVEGmodal">
+                        <div class="modal-dialog modal-lg">
+                           <div class="modal-content bg-dark-blue rounded-2">
+                              <div class="modal-header">
+                                 <h4 class="modal-title text-yellow">5GIRLS</h4>
+                                 <button type="button" class="close text-light" data-dismiss="modal" aria-label="close">
+                                    <span aria-hidden="true">&times;</span>
+                                 </button>
+                              </div>
+                              <div class="modal-body">
+                                <h5 class="d-inline-block mb-2 text-secondary">Título:  Inclusion of Women in Science through 5G Infrastructure for Ultra-Reliable and Low Latency Communications in Power Systems</h5>
+                                <br><br>
+                                O projeto tem como propósito avançar o estado da arte no uso da tecnologia 5G, em especial na classe de serviço URLLC (Ultra-Reliable and Low Latency Communications) para aplicações de missão crítica do sistema elétrico, por meio do estímulo à participação e à formação de meninas e mulheres para as carreiras de Ciências Exatas e da Terra, Engenharias e Computação.
+                                <br><br>
+                                <strong>Financiamento: FAPERJ</strong>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="modal fade" id="UFVmodal">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content bg-dark-blue rounded-2">
+                               <div class="modal-header">
+                                  <h4 class="modal-title text-yellow">UFV Iguaba</h4>
+                                  <button type="button" class="close text-light" data-dismiss="modal" aria-label="close">
+                                     <span aria-hidden="true">&times;</span>
+                                  </button>
+                               </div>
+                               <div class="modal-body">
+                                 <h5 class="d-inline-block mb-2 text-secondary">Título: Laboratório da Universidade Federal Fluminense para Inovação Aberta na Indústria Solar Fotovoltaica</h5>
+                                 <br><br>
+                                O projeto prevê a instalação de 1,6 MW de geração distribuída fotovoltaica, majoritariamente com a construção da UFV Iguaba, base para o laboratório vivo da UFF para a inovação aberta na indústria solar fotovoltaica. A instalação da planta piloto viabiliza a realização de ensaios em campo e o levantamento de dados técnicos e operacionais necessários para desenvolvimento de soluções computacionais para o planejamento da operação e manutenção de usinas solares fotovoltaicas.
+                                 <br><br>
+                                 <strong>Financiamento: FAPERJ</strong>
+                               </div>
+                            </div>
+                         </div>
+                     </div>
+                    
+                     <div class="modal fade" id="VEmodal">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content bg-dark-blue rounded-2">
+                               <div class="modal-header">
+                                  <h4 class="modal-title text-yellow">Mobilidade UFF</h4>
+                                  <button type="button" class="close text-light" data-dismiss="modal" aria-label="close">
+                                     <span aria-hidden="true">&times;</span>
+                                  </button>
+                               </div>
+                               <div class="modal-body">
+                                 <h5 class="d-inline-block mb-2 text-secondary">Título: Implantação de um Modelo de Negócio para Compartilhamento de Veículos Elétricos Usando como Estudo de Caso o Sistema de Transporte Coletivo da UFF</h5>
+                                 <br><br>
+                                 O projeto prevê o desenvolvimento de um sistema de compartilhamento de veículos elétricos, compreendendo toda a cadeia de produção, desde o controlador veicular presente nos VEs, até a plataforma online de monitoramento, controle e tarifação dos VEs. Este sistema será testado em um ambiente operacional, constituído pelo sistema de transporte coletivo da Universidade Federal Fluminense.
+                                 <br><br>
+                                 <strong>Financiamento: FAPERJ</strong>
+                               </div>
+                            </div>
+                         </div>
+                     </div>
+
+                     <div class="modal fade" id="DPTmodal">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content bg-dark-blue rounded-2">
+                               <div class="modal-header">
+                                  <h4 class="modal-title text-yellow">DP Trafo</h4>
+                                  <button type="button" class="close text-light" data-dismiss="modal" aria-label="close">
+                                     <span aria-hidden="true">&times;</span>
+                                  </button>
+                               </div>
+                               <div class="modal-body">
+                                 <h5 class="d-inline-block mb-2 text-secondary">Título: Sistema de monitoramento e diagnóstico de transformadores a seco com invólucro de proteção IP 23</h5>
+                                 <br><br>
+                                 O projeto pretende desenvolver uma solução para monitoramento e diagnóstico de transformadores a seco com invólucro de proteção IP 23 a partir da análise de descargas parciais, que seja replicável e com hardware independente de fabricantes. Entende-se que a solução é replicável pelo domínio de todo o seu desenvolvimento e, assim, possibilidade futura de fabricação de outras unidades.
+                                 <br><br>
+                                 <strong>Financiamento: Petrobrás</strong>
+                               </div>
+                            </div>
+                         </div>
+                     </div>
+                </div>
+
+                
+                <section class="mb-4 mt-4" id="alunos">
+                    <h2 class="pb-4 mb-4 mt-4 border-bottom">
+                        Alunos Orientados
+                    </h2>
+                                        
+                    <p>A Academia promove o melhor intercâmbio entre professor e aluno de diversos cursos e departamentos tanto da UFF quanto de outras instituições de ensino e pesquisa.</p>
+
+                    <div class="container d-flex justify-content-center pb-5 w-50">
+                        <img src="../assets/images/aluna.png" class="img-fluid" alt="aluna-estudando">
+                    </div>
+
+                    <table class="table text-light">
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Título Acadêmico</th>
+                                <th>Departamento</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Alessandro Milan</td>
+                                <td>Mestrado</td>
+                                <td>PPGEET</td>
+                                <td><strong class="text-yellow">Atual</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Caio Villela Mouta</td>
+                                <td>Graduação</td>
+                                <td>Engenharia Elétrica</td>
+                                <td><strong class="text-success">Concluído</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Daniela Coelho Rodrigues de Souza</td>
+                                <td>Mestrado</td>
+                                <td>PPGEET</td>
+                                <td><strong class="text-success">Concluído</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Lorenna Baptista de Oliveira</td>
+                                <td>Doutorado</td>
+                                <td>PPGEET</td>
+                                <td><strong class="text-yellow">Atual</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Matheus Lima Romaneli</td>
+                                <td>Graduação</td>
+                                <td>Computação</td>
+                                <td><strong class="text-yellow">Atual</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Mayara Nogueira dos Santos</td>
+                                <td>Graduação</td>
+                                <td>Engenharia Elétrica</td>
+                                <td><strong class="text-yellow">Atual</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Nathália Cristina Duarte</td>
+                                <td>Mestrado</td>
+                                <td>PPGEET</td>
+                                <td><strong class="text-success">Concluído</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Nathália Cristina Duarte</td>
+                                <td>Mestrado</td>
+                                <td>PPGEET</td>
+                                <td><strong class="text-success">Concluído</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Paulo Henrique Pinheiro</td>
+                                <td>Doutorado</td>
+                                <td>PPGEET</td>
+                                <td><strong class="text-yellow">Atual</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Raphael Carvalho</td>
+                                <td>Graduação</td>
+                                <td>Engenharia Elétrica</td>
+                                <td><strong class="text-success">Concluído</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Rogério Nogueira Corrêa</td>
+                                <td>Graduação</td>
+                                <td>Engenharia Elétrica</td>
+                                <td><strong class="text-success">Concluído</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Vitória Guidine Soares</td>
+                                <td>Graduação</td>
+                                <td>Computação</td>
+                                <td><strong class="text-yellow">Atual</strong></td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>Wagner de Anchieta Marques</td>
+                                <td>Doutorado</td>
+                                <td>PPGEET</td>
+                                <td><strong class="text-success">Concluído</strong></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+    
+                    <p> A professora Bruna Lima está em busca de estudantes com interesse em desenvolver habilidades e competências nas áreas de interesses citadas na Home. 
+                        <br><br>
+                        São aceitos estudantes de graduação, mestrado, doutorado e pós-doutorado para empreender as pesquisas. Caso tenha interesse em alguma das linhas de pesquisa, entre em contato! 
+                    </p>
+                </section>
+                
+
+            </div>
+
+            <div class="col-md-4 mt-5">
+                <div class="position-sticky" style="top: 2rem;">
+                    <div class="p-4 mb-3 bg-purple rounded-2">
+                        <h4 class="fst-italic">Resumo</h4>
+                        <p class="mb-2">Bruna Lima esteve presente e contribuiu ativamente na elaboração de laboratórios imporatantes na UFF. Esteve a frente de diversas pesquisas, projetos P&D, projetos de extensão, visitas técnicas e eventos acadêmicos.
+                        </p>
+                        <a href="#atividades">Conheça seus principais trabalhos!</a>
+                    </div>
+
+                    <div class="p-4 pb-5">
+                        <h4 class="fst-italic">Links Importante</h4>
+                        <ol class="list-unstyled mb-0">
+                            <li><a href="http://tee.sites.uff.br/">TEE</a></li>
+                            <li><a href="http://www.ic.uff.br/index.php/pt/">TCC/IC</a></li>
+                            <li><a href="http://www.ppgeet.uff.br/site/">PPGEET</a></li>
+                            <li><a href="https://engenharia.uff.br/">Engenharia</a></li>
+                            <li><a href="https://www.uff.br/">UFF</a></li>
+                            <li><a href="https://www.uff.br/sti">UFF STI</a></li>
+                            <li><a href="https://www.uff.br/grupo/pos-graduacao">UFF Pós Graduação</a></li>
+                            <li><a href="http://www.uff.br/?q=concursos">UFF Concursos</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+
+        <br>
+        <a class="mt-4 mb-5 btn btn-outline-primary rounded-pill" href="#">Voltar para o topo</a>
+
+    </main>
+
+    <footer class="blog-footer row">
+        <div class="mr-5 ml-5"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d595.7722891668104!2d-43.13162189430112!3d-22.90504582106113!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9983d604b5a7cb%3A0x12153598a37120f!2sUFF!5e0!3m2!1spt-BR!2sbr!4v1662602431985!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="d-flex flex-column align-self-center font-weight-bold mb-4 ml-5 mr-5">
+            <item class="p-4"> brunalima@id.uff.br </item>
+            <item class="p-2">Escola de Engenharia - UFF</item>
+            <item class="p-2"> Niterói - RJ </item>
+        </div>
+    </footer>
+
+
+    <script src="assets/js/jquery-3.3.1.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+
+
+</html>

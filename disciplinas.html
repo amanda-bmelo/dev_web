@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/all.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <title>Disciplinas</title>
+</head>
+
+<body>
+
+    <nav class="navbar bg-dark navbar-dark navbar-expand-md">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" 
+                aria-controls="menu" aria-expanded="false" aria-label="Botão de navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-item nav-link" href="http://127.0.0.1:5501/home.html">Home</a>
+                    <a class="nav-item nav-link" href="http://127.0.0.1:5501/atividades.html">Atividades</a>
+                    <div class="dropdown">
+                        <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+                            Disciplinas
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="http://127.0.0.1:5501/disciplinas.html#programacao">Programção I</a>
+                            <a class="dropdown-item" href="http://127.0.0.1:5501/disciplinas.html#compiladores">Compiladores</a>
+                            <a class="dropdown-item" href="http://127.0.0.1:5501/disciplinas.html#optativas">Optativas</a>
+                        </div>
+                    </div>
+                    <a class=" nav-item nav-link" href="http://127.0.0.1:5501/contato.html">Contato</a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="bg-dark d-flex justify-content-center">
+        <img src="../assets/images/disciplinas.gif" class="img-fluid" alt="disciplinas-header">
+    </div>
+
+    <main class="container">
+        
+        <div id="carousel-id" class="carousel slide d-md-block mb-5" style="margin-top: 69px;" data-ride="carousel" data-interval="3000">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-id" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-id" data-slide-to="1"></li>
+                <li data-target="#carousel-id" data-slide-to="2"></li>
+            </ol>  
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/prog1.gif" class="w-100 img-fluid" alt="programacao-disciplina">
+                    <div class="carousel-caption">
+                    <div class="text-center">
+                        <a class="btn btn-outline-primary" href="#programacao">Saiba mais</a>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="assets/images/compiladores.gif" class="w-100 img-fluid" alt="compiladores-disciplina">
+                    <div class="carousel-caption">
+                        <div class="text-center">
+                            <a class="btn btn-outline-primary" href="#compiladores">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="assets/images/optativas.gif" class="w-100 img-fluid" alt="optativas-disciplina">
+                    <div class="carousel-caption">
+                        <div class="text-center">
+                            <a class="btn btn-outline-primary" href="#optativas">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+
+            <a href="#carousel-id" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+                    <span class="sr-only">Anterior</span>
+                </span>
+            </a>
+            <a href="#carousel-id" class="carousel-control-next" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true">
+                    <span class="sr-only">Próximo</span>
+                </span>
+            </a>
+        </div> 
+
+        <section class="mt-4" id="programacao">
+            <h2 class="pb-4 mb-4 border-bottom">
+                Programação de Computadores I
+            </h2>
+            <h4 class="text-pink mb-3 mt-5">Ementa</h4>
+            <ul class="list-group text-yellow align-self-center mb-5">
+                <li class="list-group-item bg-dark-blue rounded-top"> >> CONCEITOS BÁSICOS DE PROGRAMAÇÃO: ALGORITMOS E ESTRUTURAS DE DADOS</li>
+                <li class="list-group-item bg-dark-blue"> >> COMANDOS E ESTRUTURAS DE CONTROLE</li>
+                <li class="list-group-item bg-dark-blue"> >> VARIÁVEIS SIMPLES</li>
+                <li class="list-group-item bg-dark-blue"> >> AGREGADOS HOMOGÊNEOS: VETORES E MATRIZES</li>
+                <li class="list-group-item bg-dark-blue"> >> AGREGADOS HETEROGÊNEOS</li>
+                <li class="list-group-item bg-dark-blue"> >> ARQUIVOS TEXTO</li>
+                <li class="list-group-item bg-dark-blue"> >> SUB-PROGRAMAÇÃO</li>
+                <li class="list-group-item bg-dark-blue rounded-bottom"> >> METODOLOGIA DE DESENVOLVIMENTO DE PROGRAMA OU SUBPROGRAMA</li>
+            </ul>
+
+            <h4 class="text-pink mb-3 mt-5">Turmas</h4>
+            <div class="mb-5 row flex-nowrap" style="overflow-x: scroll;">
+                <div class="col-4 mb-4">
+                    <div class="card card-block">
+                    <img src="assets/images/comp1.png" class="card-img-top w-75 align-self-center mt-4" alt="automação">
+                    <div class="card-body">
+                        <h5 class="card-title">Terças e Quintas 11h</h5>
+                        <strong class="d-inline-block mb-2 text-secondary">2022.2</strong>
+                        <br>
+                        <p class="d-inline-block mb-2 text-yellow">A1</p>
+                        <br><br>
+                        <a class="btn btn-outline-primary" href="#">Detalhes da Turma</a>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-4 mb-4">
+                    <div class="card card-block">
+                    <img src="/assets/images/comp2.png" class="card-img-top w-75 align-self-center mt-4" alt="automação">
+                    <div class="card-body">
+                            <h5 class="card-title">Segundas e Quartas 11h</h5>
+                            <strong class="d-inline-block mb-2 text-secondary">2021.2</strong>
+                            <br>
+                        <p class="d-inline-block mb-2 text-yellow">B1</p>
+                        <br><br>
+                            <a class="btn btn-outline-primary" href="#">Detalhes da Turma</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-4 mb-4">
+                    <div class="card card-block">
+                    <img src="/assets/images/comp3.png" class="card-img-top w-75 align-self-center mt-4" alt="automação">
+                    <div class="card-body">
+                            <h5 class="card-title">Quartas e Sextas 11h</h5>
+                            <strong class="d-inline-block mb-2 text-secondary">2021.1</strong>
+                            <br>
+                        <p class="d-inline-block mb-2 text-yellow">B1</p>
+                        <br><br>
+                            <a class="btn btn-outline-primary" href="#">Detalhes da Turma</a>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-4 mb-4">
+                    <div class="card card-block">
+                    <img src="/assets/images/comp4.png" class="card-img-top w-75 align-self-center mt-4" alt="automação">
+                    <div class="card-body">
+                            <h5 class="card-title">Terças e Quintas 11h</h5>
+                            <strong class="d-inline-block mb-2 text-secondary">2020.2</strong>
+                            <br>
+                        <p class="d-inline-block mb-2 text-yellow">A1</p>
+                        <br><br>
+                            <a class="btn btn-outline-primary" href="#">Detalhes da Turma</a>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-4 mb-4">
+                    <div class="card card-block">
+                    <img src="/assets/images/comp5.png" class="card-img-top w-75 align-self-center mt-4" alt="automação">
+                    <div class="card-body">
+                            <h5 class="card-title">Quartas e Sextas 11h</h5>
+                            <strong class="d-inline-block mb-2 text-secondary">2019.2</strong>
+                            <br>
+                        <p class="d-inline-block mb-2 text-yellow">B1</p>
+                        <br><br>
+                            <a class="btn btn-outline-primary" href="#">Detalhes da Turma</a>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-4 mb-4">
+                    <div class="card card-block">
+                    <img src="/assets/images/comp1.png" class="card-img-top w-75 align-self-center mt-4" alt="automação">
+                    <div class="card-body">
+                            <h5 class="card-title">Segundas e Quartas 11h</h5>
+                            <strong class="d-inline-block mb-2 text-secondary">2019.2</strong>
+                            <br>
+                        <p class="d-inline-block mb-2 text-yellow">C1</p>
+                        <br><br>
+                            <a class="btn btn-outline-primary" href="#">Detalhes da Turma</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-4" id="compiladores">
+            <h2 class="pb-4 mb-4 border-bottom">
+                Compiladores
+            </h2>
+            <h4 class="text-pink mb-3 mt-5">Ementa</h4>
+            <ul class="list-group text-yellow align-self-center mb-5">
+                <li class="list-group-item bg-dark-blue rounded-top"> >> ARQUITETURA BÁSICA DE UM COMPILADOR</li>
+                <li class="list-group-item bg-dark-blue"> >> ANÁLISE LÉXICA</li>
+                <li class="list-group-item bg-dark-blue"> >> ANÁLISE SINTÁTICA</li>
+                <li class="list-group-item bg-dark-blue"> >> TRADUÇÃO DIRIGIDA POR SINTAXE</li>
+                <li class="list-group-item bg-dark-blue rounded-bottom"> >> GERAÇÃO E OTIMIZAÇÃO DE CÓDIGO</li>
+            </ul>
+
+            <h4 class="text-pink mb-3 mt-5">Turmas</h4>
+            <div class="mb-5 row flex-nowrap" style="overflow-x: scroll;">
+                <div class="col-4 mb-4">
+                    <div class="card card-block">
+                    <img src="/assets/images/comp1.png" class="card-img-top w-75 align-self-center mt-4" alt="computador">
+                    <div class="card-body">
+                        <h5 class="card-title">Terças e Quintas 9h</h5>
+                        <strong class="d-inline-block mb-2 text-secondary">2022.2</strong>
+                        <br>
+                        <p class="d-inline-block mb-2 text-yellow">A1</p>
+                        <br><br>
+                        <a class="btn btn-outline-primary" href="#">Detalhes da Turma</a>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-4 mb-4">
+                    <div class="card card-block">
+                    <img src="/assets/images/comp2.png" class="card-img-top w-75 align-self-center mt-4" alt="computador">
+                    <div class="card-body">
+                            <h5 class="card-title">Segundas e Quartas 9h</h5>
+                            <strong class="d-inline-block mb-2 text-secondary">2021.2</strong>
+                            <br>
+                        <p class="d-inline-block mb-2 text-yellow">B1</p>
+                        <br><br>
+                            <a class="btn btn-outline-primary" href="#">Detalhes da Turma</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-4 mb-4">
+                    <div class="card card-block">
+                    <img src="/assets/images/comp3.png" class="card-img-top w-75 align-self-center mt-4" alt="computador">
+                    <div class="card-body">
+                            <h5 class="card-title">Quartas e Sextas 9h</h5>
+                            <strong class="d-inline-block mb-2 text-secondary">2021.1</strong>
+                            <br>
+                        <p class="d-inline-block mb-2 text-yellow">B1</p>
+                        <br><br>
+                            <a class="btn btn-outline-primary" href="#">Detalhes da Turma</a>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-4 mb-4">
+                    <div class="card card-block">
+                    <img src="/assets/images/comp4.png" class="card-img-top w-75 align-self-center mt-4" alt="computador">
+                    <div class="card-body">
+                            <h5 class="card-title">Terças e Quintas 9h</h5>
+                            <strong class="d-inline-block mb-2 text-secondary">2020.2</strong>
+                            <br>
+                        <p class="d-inline-block mb-2 text-yellow">A1</p>
+                        <br><br>
+                            <a class="btn btn-outline-primary" href="#">Detalhes da Turma</a>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-4 mb-4">
+                    <div class="card card-block">
+                    <img src="/assets/images/comp5.png" class="card-img-top w-75 align-self-center mt-4" alt="computador">
+                    <div class="card-body">
+                            <h5 class="card-title">Quartas e Sextas 9h</h5>
+                            <strong class="d-inline-block mb-2 text-secondary">2019.2</strong>
+                            <br>
+                        <p class="d-inline-block mb-2 text-yellow">B1</p>
+                        <br><br>
+                            <a class="btn btn-outline-primary" href="#">Detalhes da Turma</a>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-4 mb-4">
+                    <div class="card card-block">
+                    <img src="/assets/images/comp1.png" class="card-img-top w-75 align-self-center mt-4" alt="computador">
+                    <div class="card-body">
+                            <h5 class="card-title">Segundas e Quartas 9h</h5>
+                            <strong class="d-inline-block mb-2 text-secondary">2019.2</strong>
+                            <br>
+                        <p class="d-inline-block mb-2 text-yellow">C1</p>
+                        <br><br>
+                            <a class="btn btn-outline-primary" href="#">Detalhes da Turma</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="mt-5" id="optativas">
+            <h2 class="pb-4 mb-4 border-bottom">
+                Optativas
+            </h2>
+            <div class="card-group mb-5">
+                <div class="card">
+                  <img src="/assets/images/automacao.png" class="card-img-top w-75 align-self-center mt-4" alt="automação">
+                  <div class="card-body">
+                    <h5 class="card-title">Introdução a Automação de Subestações</h5>
+                    <p class="card-text text-justify">Apresentar alternativas de soluções para Sistemas de Automação de Subestações (SAS) de Energia Elétrica e Centros de Operação de Sistemas, debatendo as topologias, metodologias e tecnologias atuais. O curso compreende conceitos básicos de um sistema de automação. </p>
+                    <a class="btn btn-outline-primary" href="#">Detalhes da Turma</a>
+                  </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/images/iot.png" class="card-img-top w-75 align-self-center mt-4" alt="iot-5g">
+                    <div class="card-body">
+                      <h5 class="card-title">Expansão dos horizontes com o uso do 5G em IoT</h5>
+                      <p class="card-text text-justify">A tecnologia 5G será um componente importante da sociedade em rede. O 5G suportará um grande número de dispositivos conectados e aumentará a confiabilidade na comunicação de aplicações de missão crítica. O 5G fornecerá um grande avanço nessa área.</p>
+                      <a class="btn btn-outline-primary" href="#">Detalhes da Turma</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="/assets/images/security.png" class="card-img-top w-75 align-self-center mt-4" alt="segurança-de-redes">
+                    <div class="card-body">
+                      <h5 class="card-title">Implementação de táticas de segurança de redes: Blue Team</h5>
+                      <p class="card-text text-justify">Se quisemos ter um ambiente seguro, precisamos de pessoas responsáveis capazes de para sempre olhar a segurança, identificar as ameaças e fortalecer toda essa estrutura de segurança digital. A principal função do Blue Team é detectar e prevenir ataques.</p>
+                      <a class="btn btn-outline-primary" href="#">Detalhes da Turma</a>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        
+        <br>
+        <a class="mt-4 mb-5 btn btn-outline-primary rounded-pill" href="#">Voltar para o topo</a>
+
+    </main>
+
+    <footer class="blog-footer row">
+        <div class="mr-5 ml-5"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d595.7722891668104!2d-43.13162189430112!3d-22.90504582106113!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9983d604b5a7cb%3A0x12153598a37120f!2sUFF!5e0!3m2!1spt-BR!2sbr!4v1662602431985!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="d-flex flex-column align-self-center font-weight-bold mb-4 ml-5 mr-5">
+            <item class="p-4"> brunalima@id.uff.br </item>
+            <item class="p-2">Escola de Engenharia - UFF</item>
+            <item class="p-2"> Niterói - RJ </item>
+        </div>
+    </footer>
+
+    <script src="assets/js/jquery-3.3.1.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

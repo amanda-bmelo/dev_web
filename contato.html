@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/all.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <title>Contato</title>
+</head>
+
+<body>
+    <nav class="navbar bg-dark navbar-dark navbar-expand-md">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" 
+                aria-controls="menu" aria-expanded="false" aria-label="Botão de navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-item nav-link" href="http://127.0.0.1:5501/home.html">Home</a>
+                    <a class="nav-item nav-link" href="http://127.0.0.1:5501/atividades.html">Atividades</a>
+                    <div class="dropdown">
+                        <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+                            Disciplinas
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="http://127.0.0.1:5501/disciplinas.html#programacao">Programção I</a>
+                            <a class="dropdown-item" href="http://127.0.0.1:5501/disciplinas.html#compiladores">Compiladores</a>
+                            <a class="dropdown-item" href="http://127.0.0.1:5501/disciplinas.html#optativas">Optativas</a>
+                        </div>
+                    </div>
+                    <a class=" nav-item nav-link" href="#">Contato</a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="bg-dark d-flex justify-content-center">
+            <img src="../assets/images/contato.gif" class="img-fluid" alt="contato-header">
+    </div>
+
+    <main class="container">
+
+        <section class="mt-5">
+            <h2 class="pb-4 mb-4 border-bottom">
+                Redes sociais
+            </h2>
+            <div class="row d-inline-flex mb-4">
+                <a href="http://lattes.cnpq.br/0051460077973814"><img class="icon ml-3 mr-3" src="/assets/images/lattes.png" alt="lattes"></a>
+                <a href="https://www.linkedin.com/in/yonalopes/"><img class="icon mr-3" src="/assets/images/linkedin.png" alt="linkedin"></a>
+                <a href="https://www.instagram.com/yona_lopes/"><img class="icon mr-3" src="/assets/images/insta.png" alt="instagram"></a>
+                <a href="https://www.facebook.com/yona.lopes1"><img class="icon mr-3" src="/assets/images/face.png" alt="facebook"></a>
+            </div>
+        </section>
+
+        <section class="mt-5">
+            <h2 class="pb-4 mb-4 border-bottom">
+                Me envie uma mensagem!
+            </h2>
+            <div class="modal-body">
+                <form action="">
+                   <fieldset class="form-group">
+                      <legend class="font-weight-bold">Formulário</legend>
+ 
+                      <div class="form-group row">
+                         <label for="nome" class="col-form-label col-lg-2">Nome</label>
+                         <div class="col-lg-10">
+                            <input type="text" name="nome"
+                                   class="form-control" 
+                                   placeholder="Nome completo" id="nome" >
+                         </div>
+                      </div>
+                      <div class="form-group row">
+                         <label class="col-form-label col-lg-2">Grau</label>
+                         <div class="col-lg-10" style="padding-top: 7px;">
+                            <div class="form-check form-check-inline">
+                               <input type="radio" id="professor" name="grau" 
+                                      value="P" class="form-check-input">
+                               <label for="professor" class="form-check-label">
+                                  Professor
+                               </label>       
+                            </div>
+                            <div class="form-check form-check-inline">
+                               <input type="radio" id="pos-doc" name="grau" 
+                                      value="PD" class="form-check-input">
+                               <label for="pos-doc" class="form-check-label">
+                                  Pós-Doutorado
+                               </label>       
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" id="doc" name="grau" 
+                                       value="D" class="form-check-input">
+                                <label for="doc" class="form-check-label">
+                                   Doutorado
+                                </label>       
+                             </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" id="mestrado" name="grau" 
+                                       value="M" class="form-check-input">
+                                <label for="mestrado" class="form-check-label">
+                                   Mestrado
+                                </label>       
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" id="graduacao" name="grau" 
+                                       value="G" class="form-check-input">
+                                <label for="graduacao" class="form-check-label">
+                                    Graduação
+                                </label>       
+                            </div>
+                         </div>
+                      </div>
+
+                      <div class="form-group row">
+                         <label for="email" class="col-form-label col-lg-2">Email</label>
+                         <div class="col-lg-10">
+                            <input type="text" id="email" name="email"
+                                   class="form-control" placeholder="Seu email">
+                                
+                         </div>
+                      </div>
+
+                      <div class="form-group row">
+                         <label for="mensagem" class="col-form-label col-lg-2">Mensagem</label>
+                         <div class="col-lg-10">
+                            <textarea class="form-control" id="mensagem" rows="3" placeholder="Como posso te ajudar? ;)"></textarea>
+                         </div>
+                      </div>
+                   </fieldset>
+                   
+ 
+                   <div class="form-group row">
+                      <div class=" col-lg-10 offset-lg-2">
+                         <button type="button" class="btn btn-outline-primary" data-dismiss="modal">
+                            Enviar
+                         </button>
+                      </div>
+                   </div>
+                </form>
+             </div>
+        </section>
+
+
+    </main>
+
+    <footer class="blog-footer row">
+        <div class="mr-5 ml-5"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d595.7722891668104!2d-43.13162189430112!3d-22.90504582106113!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9983d604b5a7cb%3A0x12153598a37120f!2sUFF!5e0!3m2!1spt-BR!2sbr!4v1662602431985!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="d-flex flex-column align-self-center font-weight-bold mb-4 ml-5 mr-5">
+            <item class="p-4"> brunalima@id.uff.br </item>
+            <item class="p-2">Escola de Engenharia - UFF</item>
+            <item class="p-2"> Niterói - RJ </item>
+        </div>
+    </footer>
+
+
+    <script src="assets/js/jquery-3.3.1.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/script.js"></script>
+
+
+
+</body>
+
+
+
+</html>
